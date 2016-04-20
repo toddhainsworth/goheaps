@@ -5,11 +5,6 @@ import (
   "math"
 )
 
-type Node struct {
-  Weight int
-  Payload int
-}
-
 type Heap struct {
   Nodes []Node
   Type string
